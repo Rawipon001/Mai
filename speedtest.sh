@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# กำหนด header สำหรับไฟล์ CSV
-echo "Server ID,Server Name,Location,Country,Latency,Download,Upload" > speedtest_X.csv
+# กำหนด hedsaader สำหรับไฟล์ CSV
+echo "Server ID,Server Name,Location,Country,Latency,Download,Upload" > speedtest_7.csv
 
 # ใช้คำสั่ง speedtest-cli เพื่อค้นหา Server และทดสอบความเร็ว
 speedtest-cli --list | while read line; do
